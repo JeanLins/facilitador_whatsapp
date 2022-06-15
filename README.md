@@ -1,1 +1,0 @@
-# facilitador_whatsapp
