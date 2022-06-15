@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facilitador Link ASP</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="containner">
+      <img
+        src="./image/logo_asp.png"
+        alt="Logo da empresa ASP Corretora de Seguros."
+      />
+      <h1>Facilitador de links para</h1>
+      <h1 id="whats">WhatsApp</h1>
+      <p>Insira o número de telefone abaixo, depois clique em gerar link.</p>
+      <input
+        id="entrada_numero"
+        type="text"
+        maxlength="11"
+        placeholder="Digite aqui o número"
+      />
+      <button id="gerar_link" onclick="gerarLink()">Gerar Link</button>
+      <p id="disclaimer">
+        Atenção coloque apenas o DDD e o número, exatamente desta forma
+        (11950089099)
+      </p>
+    </div>
+    <script type="text/javascript" src="./main.js" defer></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
